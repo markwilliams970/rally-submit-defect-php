@@ -31,5 +31,5 @@ You'll need to configure the virtual directory on the webserver per the directio
 
 ## Tested On ##
 
-Requires PHP 5.3+ with JSON and CuRL support installed.
+PHP 5.3+ with JSON and CuRL support installed.
 
