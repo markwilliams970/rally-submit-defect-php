@@ -25,7 +25,7 @@ Configure the following variables in `rally-submit-defect.php`:
 
 To match your environment. Place the PHP, HTML, and styles directory within the location on your PHP-enabled webserver denoted by `$relative_url_path`. Default access to the page:
 
-`https://mywebserver/rally-submit-defect`
+`https://mywebserver/rally-submit-defect/rally-submit-defect.php`
 
 You'll need to configure the virtual directory on the webserver per the directions for your particular web hosting application.
 
