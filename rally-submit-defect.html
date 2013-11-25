@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<title>Rally Submit Defect Example</title>
+<head>
+</head>
+<link rel=StyleSheet href="styles/default.css" type="text/css" media=screen>
+<body>
+<center>
+<br>
+
+<h1>Rally Submit Defect Example</h1>
+
+<link href="styles/default.css" rel="stylesheet" type="text/css">
+
+<form name="defectForm" action="rally-submit-defect.php" method="POST" >
+<table>
+    <tr><td style="height: 32px"><b><u>Defect Information:</u></b></td></tr>
+    <tr><td>Defect Name:</td><td style="width: 301px"><input name="name" style="width: 180px"></td>
+    </tr>
+    <tr><td style="height: 34px">Priority:</td>
+        <td style="height: 35px; width: 301px;">
+        <select name="priority" style="width: 155px">
+        <option>Resolve Immediately</option>
+        <option>High Attention</option>
+        <option>Normal</option>
+        <option>Low</option>
+        </select></td>
+    </tr>
+    <tr><td style="height: 35px">Severity:</td>
+        <td style="height: 35px; width: 301px;">
+        <select name="severity" style="width: 155px">
+        <option>Crash/Data Loss</option>
+        <option>Major Problem</option>
+        <option>Minor Problem</option>
+        <option>Cosmetic</option>
+        </select></td></tr>
+    <tr><td style="height: 116px">Description</td>
+        <td style="height: 116px; width: 301px;">
+        <textarea name="description" style="height: 100px; width: 200px"></textarea></td></tr>
+    <tr><td><input type="submit" value="Submit"></td></tr>
+</table>
+</form>
+</center>
+</body>
+</html>
