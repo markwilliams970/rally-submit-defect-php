@@ -2,7 +2,7 @@ rally-submit-defect-php
 =======================
 
 ## SECURITY WARNING ##
-The PHP script includes embedded Rally credentials. While PHP masks the source code of the script from the browser end-user, this is fundamentally NOT secure. STRONGLY RECOMMEND USING THIS EXAMPLE FOR EXAMPLE REFERENCE ONLY. 
+The PHP script includes embedded Rally credentials. While PHP masks the source code of the script from the browser end-user, this is fundamentally NOT secure. STRONGLY RECOMMEND USING THIS EXAMPLE FOR EXAMPLE REFERENCE ONLY. Any actual implementation should include, at minimum, some obfuscation of the credentials as a precaution. 
 
 ## Example ##
 
@@ -11,6 +11,8 @@ A very simple example of an HTML form submitted to a PHP script that creates a D
 -  [Yahoo's PHP Rally Connector](https://github.com/stjohnjohnson/php-rally-connector). 
 
 The only modification was to no longer throw an Exception for Warnings returned by WSAPI - due to down-level versioning - every 1.x WSAPI request will generate a warning.
+
+- [Video showing Example In Action](http://screencast.com/t/LgDepXEGa3Hg)
 
 ## Usage ##
 Configure the following variables in `rally-submit-defect.php`:
